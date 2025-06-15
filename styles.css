@@ -1,1 +1,37 @@
 /* your code */
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2f4f4f;
+    }
+
+    table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    thead {
+      background-color: #4682b4;
+      color: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #e6f2ff;
+    }
+
+    tbody tr:hover {
+      background-color: #d1ecf1;
+    }
